@@ -1,4 +1,4 @@
-skill-issuer.out:
+skill-issuer.out: skill_issuer.c
 	gcc -Wall skill_issuer.c -o skill-issuer.out
 
 clean:
